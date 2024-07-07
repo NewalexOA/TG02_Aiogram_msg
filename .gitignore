@@ -162,3 +162,5 @@ cython_debug/
 #.idea/
 /.idea
 /img
+/voice
+config.py
