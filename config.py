@@ -1,0 +1,5 @@
+BOT_TOKEN = '7460905946:AAFZmdD41LxMaz5mUh4ozFjObA4an29rpGI'
+# WEBHOOK_URL = f"https://yourdomain.com/{BOT_TOKEN}"
+# WEBHOOK_PATH = f"/{BOT_TOKEN}"
+# WEBAPP_HOST = "localhost"
+# WEBAPP_PORT = 3000
