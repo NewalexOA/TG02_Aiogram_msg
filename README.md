@@ -28,12 +28,24 @@
 
 Бот переводит любой текст, отправленный пользователем, на английский язык с использованием библиотеки `googletrans`. При включении режима переводчика с помощью команды `/translate_on`, бот перехватывает все текстовые сообщения, отправленные пользователем, переводит их на английский язык и отправляет перевод обратно пользователю. Для выключения режима переводчика используется команда `/translate_off`. Библиотека `googletrans` взаимодействует с API Google Translate, что позволяет боту выполнять высококачественные переводы текста в режиме реального времени.
 
+### Структура проекта
+
+Проект состоит из следующих файлов и директорий:
+
+- `main.py`: Главный файл для запуска бота. В нем инициализируются бот и диспетчер, устанавливаются команды и запускается опрос обновлений.
+- `config.py`: Файл конфигурации, содержащий токен бота и путь к голосовому файлу.
+- `handlers.py`: Содержит обработчики команд и сообщений бота, включая сохранение фото, отправку голосовых сообщений и перевод текста.
+- `utils.py`: Содержит вспомогательные функции для загрузки фото, отправки голосовых сообщений и перевода текста.
+- `requirements.txt`: Список зависимостей проекта.
+- `img/`: Директория для хранения загруженных фото.
+- `voice/`: Директория для хранения голосового сообщения (при необходимости).
+
 ### Установка и запуск
 
 1. **Клонирование репозитория**:
     ```sh
-    git https://github.com/NewalexOA/TG02_Aiogram_msg.git
-    cd TG02_Aiogram_msg
+    git clone https://github.com/your_username/your_repository.git
+    cd your_repository
     ```
 
 2. **Создание виртуального окружения и установка зависимостей**:
@@ -82,12 +94,24 @@ The bot sends a voice message stored in a local file. When the user sends the `/
 
 The bot translates any text sent by the user into English using the `googletrans` library. When the translation mode is enabled with the `/translate_on` command, the bot intercepts all text messages sent by the user, translates them into English, and sends the translation back to the user. The translation mode can be turned off using the `/translate_off` command. The `googletrans` library interacts with the Google Translate API, enabling the bot to perform high-quality text translations in real-time.
 
+### Project Structure
+
+The project consists of the following files and directories:
+
+- `main.py`: The main file for running the bot. It initializes the bot and dispatcher, sets commands, and starts polling for updates.
+- `config.py`: Configuration file containing the bot token and the path to the voice file.
+- `handlers.py`: Contains the handlers for bot commands and messages, including saving photos, sending voice messages, and translating text.
+- `utils.py`: Contains helper functions for downloading photos, sending voice messages, and translating text.
+- `requirements.txt`: List of project dependencies.
+- `img/`: Directory for storing downloaded photos.
+- `voice/`: Directory for storing the voice message (if needed).
+
 ### Installation and Launch
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/NewalexOA/TG02_Aiogram_msg.git
-    cd TG02_Aiogram_msg
+    git clone https://github.com/your_username/your_repository.git
+    cd your_repository
     ```
 
 2. **Create a virtual environment and install dependencies**:
